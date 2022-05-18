@@ -8,13 +8,17 @@
 
 /* ------------*/
 body {
-    background-color: #f9a998;
+    /*background-color: #f9a998;*/
+    background: rgb(247, 131, 233);
+    background: linear-gradient(90deg, rgba(247, 131, 233, 1) 0%, rgba(232, 194, 240, 1) 52%, rgba(244, 76, 155, 1) 100%);
     font-family: sans-serif;
 }
 
 /* menu */
 .navbar {
-    background-color: #ee8a75;
+    /*background-color: #ee8a75;*/
+    background: rgb(244, 76, 155);
+    background: linear-gradient(90deg, rgba(244, 76, 155, 1) 0%, rgba(127, 86, 135, 1) 50%, rgba(247, 131, 233, 1) 100%);
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     align-items: center;
